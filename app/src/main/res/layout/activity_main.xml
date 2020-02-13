@@ -4,7 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorAccent"
     tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HELLO WORLD"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 
     <TextView
@@ -13,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="39dp"
         android:layout_marginLeft="39dp"
-        android:layout_marginTop="38dp"
+        android:layout_marginTop="70dp"
         android:layout_marginEnd="72dp"
         android:textAlignment="center"
         android:textSize="18dp"
@@ -35,6 +45,7 @@
         android:textSize="30dp"
         android:inputType="textPersonName"
        android:hint="Enter Message"
+        android:textColor="@color/colorPrimaryDark"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -49,8 +60,10 @@
         android:onClick="sendMessage"
         android:layout_marginRight="16dp"
         android:text="SEND"
+        android:textColor="@color/colorAccent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/message"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
 
