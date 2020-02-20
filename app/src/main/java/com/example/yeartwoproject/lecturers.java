@@ -27,7 +27,7 @@ public class lecturers extends AppCompatActivity {
             } catch (IOException e){
                 e.printStackTrace();
             }
-            
+
         }
     }
 }
