@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
+import android.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -57,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("MESSAGE", message.getText().toString());
         startActivity(intent);
 
-
     }
+
+
 }
